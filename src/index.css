@@ -20,4 +20,13 @@ body{
   --Magnolia: hsl(217, 100%, 97%);
   --Alabaster: hsl(231, 100%, 99%);
   --White: hsl(0, 0%, 100%);
+  --black: hsl(360, 100, 0);
+
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-bold: 700;
+
+  --fs-regular: 12px;
+  --fs-medium: 14px;
+  --fs-large: 2rem;
 }
