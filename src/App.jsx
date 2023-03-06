@@ -1,13 +1,12 @@
 import { useState } from "react";
 
-import Page1 from "./pages/MainPage";
+import Form from "./components/Form";
 import Wrapper from "./Helpers/Wapper";
-import CustomButton from "./components/CustomButton";
 
 function App() {
   return (
     <Wrapper>
-      <Page1 />
+      <Form />
     </Wrapper>
   )
 }

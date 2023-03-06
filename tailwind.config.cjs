@@ -5,7 +5,14 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        ubuntu:'Ubuntu'
+      },
+      backgroundImage:{
+        "step-bg": "url(../src/assets/bg-sidebar-desktop.svg)",
+      }
+    },
     colors:{
       "Marine-blue": "hsl(213, 96%, 18%)",
       "Purplish-blue": "hsl(243, 100%, 62%)",

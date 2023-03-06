@@ -1,8 +1,6 @@
-import classes from "./Card.module.css"
-
 const Card = props => {
     return (
-        <div className={`${classes.Card} ${props.className}`}>{props.children}</div>
+        <div className={`bg-Alabaster rounded-[10px] ${props.className}`}>{props.children}</div>
     )
 }
 
